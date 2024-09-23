@@ -1,0 +1,128 @@
+.containerPrincipalDash {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f3f3f3; */
+  background-color: white;
+  
+}
+
+.containerImageBetesda {
+  padding-top: 2vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+.dashTitle {
+  font-size: 34px;
+  margin-bottom: 7vh;
+  font-weight: bold;
+}
+.containerChart {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.chartEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15vw;
+}
+
+.contentChart {
+  
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.labelGrafic {
+  font-size: 27px;
+  text-align: center;
+}
+.labelGrafic2 {
+  font-size: 27px;
+  
+}
+
+.titlesChart {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.editDesktop {
+  display: initial;
+}
+
+.editMobile {
+  display: none;
+}
+
+.editHomeMobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .containerChart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .chartEdit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0vw;
+  }
+
+  .pieEdit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .editDesktop {
+    display: none;
+  }
+.editMobile {
+  display: none;
+} 
+
+.labelGrafic {
+  font-size: 17px;
+  text-align: center;
+  width: 115%  
+}
+.labelGrafic2 {
+  font-size: 17px;
+  text-align: center;
+  width: 120%; 
+  margin-bottom: 3vh; 
+}
+.editHomeMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}

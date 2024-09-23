@@ -1,0 +1,17 @@
+
+.buttonRemoveImg {
+  width: 15vw;
+  margin-top: 2vh;  
+  color: white;
+  font-weight: bold;
+ 
+}
+@media (max-width: 768px) {
+  .buttonRemoveImg {
+    width: 40vw;
+    background-color: red;
+    color: white;
+    /* padding: 2vh; */
+    margin-bottom: 2vh;
+  } 
+}

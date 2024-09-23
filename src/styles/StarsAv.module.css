@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.average {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FEA051;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.starUnselected {
+  color: #aaa;
+}
+
+.starSelected {
+  color: #ffb300;
+}

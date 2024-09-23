@@ -1,0 +1,228 @@
+.editContainerApp {
+  padding: 3vw;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+
+
+}
+
+.containerTitleAndImage {
+  width: 100%;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgCardAbout {
+  width: 34%;
+  height: 35%;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  border-radius: 7px;
+}
+.contextAbout {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerEditTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+.titleEdit {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.containerImgTextAndAnimation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrowIcon {
+  border-radius: 50%;
+  animation: pulse 1s infinite;
+  
+}
+
+.sectionButtons {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 1vw;
+}
+
+.containerButtonsModalsAdd {
+  
+  margin-top: 7vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+
+.containerGalleryPhotos {
+  margin-top: 10vh;
+}
+
+.containerPhotos {
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  margin-bottom: 5vh;
+  
+}
+
+.imgEnvEdit {
+  width: 20vw;
+  height: 33vh;
+}
+
+.titlePhotosSaved {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.containerImgButtonGallery {
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  gap: 1vw;
+  border: 2px solid #D3D3D3;
+  padding: 1vw;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .editContainerApp {
+    padding: 3vw;
+    padding-top: 7vh;
+    min-height: 100vh;
+  }
+   
+  .containerEditTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+  }
+  
+  .titleEdit {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3vh;
+  }
+
+
+  .containerTitleAndImage {
+    width: 100%;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .imgCardAbout {
+    width: 80%;
+    height: 35%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 7px;
+  }
+
+  .contextAbout {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+     margin-top: 1vh; 
+    margin-bottom: 6vh;
+   
+  }
+
+  .sectionButtons {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 1vw;
+  }
+
+  .containerPhotos {
+    width: 100%;  
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-bottom: 5vh;
+    
+  }
+ 
+  .containerImgButtonGallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    border: 2px solid #D3D3D3;
+    padding: 1vw;
+    border-radius: 10px;
+  }
+  
+  .imgEnvEdit {
+    width: 100vw;
+    height: 40vh;
+  }
+  
+
+  .titlePhotosSaved {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+  
+
+}

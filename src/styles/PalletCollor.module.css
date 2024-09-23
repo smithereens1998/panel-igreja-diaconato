@@ -1,0 +1,338 @@
+.containerPalletPrincipal {
+
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4vw;
+  padding: 0vh;
+  background-color: #F8F8F8;
+  
+  
+  /* align-items: center; */
+}
+
+.modelCellContainer {
+  display: flex;
+  /* justify-content: center; */
+  border: 10px solid black;
+  width: 20%;
+  height: 80vh;
+  border-radius: 15px
+ /* background-color: blue;  */
+
+}
+
+.inputCollor {
+  opacity: 0;
+  width: 100%;
+  padding: 0px 0vw 0px 0px !important;
+}
+.inputCollor::placeholder {
+  /* width: 100%; */
+  color: black;
+  padding: 0px 0px !important;
+}
+
+.headerCell {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.containerHeader {
+  /* background-color: red; */
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+
+}   
+.containerHeaderForms {
+  /* background-color: red; */
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.containerHeaderFormsHome {
+  /* background-color: red; */
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.containerButtonsColor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputCollorContent {
+ opacity: 0;
+  background-color: #1a202c;
+}
+
+.buttonEditColor {
+  /* width: 300px; */
+ 
+  margin: 1vw;
+  background-color: black;
+  /* color: white; */
+  font-weight: bold;
+}
+.buttonEditColorSave {
+  /* width: 300px; */
+ 
+  margin: 1vw;
+  background-color: black;
+  /* color: white; */
+  font-weight: bold;
+}
+
+.offButton {
+  margin: 1vw;
+  background-color: black;
+  /* color: white; */
+  font-weight: bold;
+  visibility: hidden;
+  transition: 800ms;
+}
+
+
+
+.primaryColor {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.containerMenuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px
+ 
+}
+.containerMenuItem:hover {
+  background-color: #F0F0F0;
+  padding: 0.3vw;
+  transition: 100ms;
+  border-left: 3px solid black;
+
+}
+
+.containerItensMenuPrincipal {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  
+  
+}
+.footerEditColorApp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 0.3vw;
+  gap: 0vw;
+  margin-top: 0.1vw;
+  border-top: 1px solid gray;
+}
+
+.titleEditFonte {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.colorContext {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.containerIconsColor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  height: 15vh;
+
+}
+.containerIconsColorHome {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  
+
+}
+
+.containerButtonColor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.containerButtonColorForms {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 4vh;
+
+}
+.footerColor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8vw;
+  border: 1px solid #000000
+}
+
+.containerFormsColor {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+ 
+}
+
+
+
+.containerFormsColor {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+
+.containerImage {
+  padding-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.containerLogoColor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: center;
+  margin-top: 1vw;
+  border-radius: 50px;
+}
+.containerLogoColorHome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  justify-content: center;
+  margin-top: 1vw;
+  border-radius: 50px;
+}
+
+.containerContentHomeText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  padding: 1vw;
+}
+
+.titleService{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.containerTabsColor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  padding: 1vw;
+  border-top: 1px solid black;
+  
+}
+
+.containerfooterIconsColor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.containerButtonSave {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*========================== Responsividade=================== */
+@media (max-width: 768px) {
+  .containerPalletPrincipal {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    padding: 1vh;
+    background-color: #F8F8F8;
+    
+    /* align-items: center; */
+  }
+
+  .modelCellContainer {
+    display: flex;
+    /* justify-content: center; */
+    border: 10px solid black;
+    width: 70%;
+    height: 80vh;
+    border-radius: 15px
+   /* background-color: blue;  */
+  
+  }
+
+  .containerTabsColor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    padding: 1vw;
+    border-top: 1px solid #F8F8F8;
+    
+  }
+
+  .containerLogoColor {
+    border-radius:  20vw;
+  }
+
+  .containerItensMenuPrincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    
+    
+  }
+}

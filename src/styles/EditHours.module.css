@@ -1,0 +1,62 @@
+.containerPrincipalHours {
+  /* padding: 3vw; */
+  padding-top: 4vw;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.containerCardsTeamHours {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+  
+.containerCardEditHours {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  background-color: white;
+  padding: 2vw;
+
+}
+.contextContentHours {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleHours {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 3vw;
+}
+
+.sizeImgBarber {
+  width: 15%;
+  border-radius: 150px
+}
+
+.diviserColor {
+  
+  border: 2px solid gray;
+}
+
+.containerButtonEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7vw
+}
+
+@media (max-width: 768px) {
+
+  .containerPrincipalHours {
+    /* padding: 3vw; */
+    padding-top: 12vw;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+}

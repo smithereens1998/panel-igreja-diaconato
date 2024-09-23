@@ -1,0 +1,25 @@
+.containerTable {
+  border: 1px solid red;
+}
+
+/* .tableEdit {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10vh;
+  height: 50vh;
+  overflowY: auto;
+  width: 80%;
+} */
+
+@media (max-width: 768px) {
+  .tableEdit {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10vh;
+    height: 50vh;
+    overflowY: auto;
+    width: 100;
+  }
+  
+
+}

@@ -1,0 +1,111 @@
+.containerPrincipalBarber {
+  padding: 7vw;
+  height: auto;
+  background-color: #f3f3f3;
+}
+
+.titleBarber {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 3vw;
+}
+
+.containerCardsTeam {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  
+
+}
+
+.containerCardEdit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  background-color: white;
+  padding: 2vw;
+
+}
+
+.containerButtonAndTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.fotoBarber {
+  width: 8vw;
+  height: 17vh;
+  border-radius: 1vw;
+
+}
+
+.contextContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editMobile {
+  width: 10%;
+}
+.iconButtonEdit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin-top: 7vh;
+  margin-bottom: 4vh;
+ 
+
+}
+
+@media (max-width: 768px) {
+  .containerPrincipalBarber {
+    padding: 7vw;
+    padding-top: 15vw;
+    min-height: 100vh
+    
+  }
+  
+.iconButtonEdit {
+  
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1vh;
+}
+  .titleBarber {
+    width: 100%;
+    font-size: 20px;
+    
+  }
+  
+  .containerButtonAndTitle {
+   gap: 0.7vw;
+   margin-bottom: 30px;
+    
+  } 
+
+  .editMobile {
+    width: 100%;
+  }
+
+  .fotoBarber {
+    width: 17vw;
+    height: 12vh;
+    border-radius: 2vw;
+  
+  }
+  
+.imgAvatar {
+  width: 40px;
+}
+}
